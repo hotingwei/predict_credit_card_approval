@@ -118,7 +118,3 @@ best_model = grid_model_result.best_estimator_
 print("Accuracy of logistic regression classifier: ", best_model.score(rescaledX_test, y_test))
 
 # Project from Datacamp
-
-# Count the number of NaNs in the datasets and print the counts to verify
-print(cc_apps_train.isnull().sum())
-print(cc_apps_test.isnull().sum())
